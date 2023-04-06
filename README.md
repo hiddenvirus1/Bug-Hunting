@@ -7,3 +7,8 @@ cat urls.txt | grep -i "\.js$" | while read url do; do echo " [$] $url" ;echo "$
 ```
 python3 crt.py -d "domain.com"
 ```
+> Create a readable file from shodon download result
+```
+pip3 install jsonlines
+python3 shodan-reader.py -f shodan_results.json
+```
