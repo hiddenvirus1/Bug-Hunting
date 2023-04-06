@@ -9,6 +9,5 @@ python3 crt.py -d "domain.com"
 ```
 > Create a readable file from shodon download result
 ```
-pip3 install jsonlines
-python3 shodan-reader.py -f shodan_results.json
+python3 shodan-reader.py -h
 ```
