@@ -4,7 +4,7 @@ import jsonlines
 # Parse the command-line arguments
 parser = argparse.ArgumentParser(description='Read Shodan results from a JSON file.')
 parser.add_argument('-f', '--filename', required=True, help='Path to the input file')
-parser.add_argument('-ip', '--only-ip', action='store_true', help='Print only the IP addresses')
+parser.add_argument('-ip', action='store_true', help='Print only the IP addresses')
 args = parser.parse_args()
 
 # Open the file and read the JSON data
